@@ -5,7 +5,6 @@
 2. save: **google_apps_mx.yml** (replace *DNS_NAME* with your domain.tld)
 
   ```yaml
-  ---
   kind: dns#resourceRecordSet
   name: DNS_NAME.
   rrdatas:
