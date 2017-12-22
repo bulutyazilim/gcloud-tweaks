@@ -7,7 +7,7 @@ gcloud compute --project "project-name" firewall-rules create "USER_NAME" --allo
 
 each time update it with current ip adress
 ```
-gcloud compute --project "project-name" firewall-rules update "USER_NAME"  --source-ranges "$(wget http://ip.appspot.com -qO -)"
+gcloud compute --project "project-name" firewall-rules update "USER_NAME"  --source-ranges "$(wget https://api.ipify.org -qO -)"
 ```
 
 and after if you want to close the doors, change it with 127.0.0.2
